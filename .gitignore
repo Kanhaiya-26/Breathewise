@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.py[cod]
+*.tmp
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Excel lock files
+~$*.xlsx
